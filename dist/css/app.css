@@ -1,0 +1,172 @@
+* {
+  font-family: "Playfair Display", serif; }
+
+#main {
+  height: 80vh;
+  display: flex;
+  justify-content: center; }
+  #main .main__content {
+    width: 80%;
+    display: flex;
+    background-color: #04b4e0;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px #c0bfbf; }
+    #main .main__content .main__content__left {
+      width: 30%;
+      background-color: #04b4e0;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      position: relative; }
+      #main .main__content .main__content__left .main__content__left__top .main__content__left__top__img img {
+        display: block;
+        max-width: 200px;
+        border-radius: 50%;
+        border: 3px solid white;
+        margin: 0 auto;
+        margin-top: 30px; }
+      #main .main__content .main__content__left .main__content__left__contacts {
+        display: flex;
+        justify-content: center; }
+        #main .main__content .main__content__left .main__content__left__contacts div {
+          width: 40%;
+          display: flex;
+          justify-content: space-around;
+          color: #ffffff;
+          margin-top: 10px; }
+          #main .main__content .main__content__left .main__content__left__contacts div a {
+            color: #ffffff;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30px;
+            width: 30px;
+            text-decoration: none; }
+            #main .main__content .main__content__left .main__content__left__contacts div a:hover {
+              background-color: rgba(255, 255, 255, 0.3);
+              height: 30px;
+              width: 30px;
+              border-radius: 50%; }
+      #main .main__content .main__content__left .main__content__left__download {
+        width: 100%;
+        display: flex;
+        justify-content: center; }
+        #main .main__content .main__content__left .main__content__left__download div {
+          height: 20vh;
+          margin-top: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #main .main__content .main__content__left .main__content__left__download div a {
+            text-decoration: none; }
+            #main .main__content .main__content__left .main__content__left__download div a:hover {
+              background-color: #ffffff;
+              border-top-left-radius: 20px;
+              border-bottom-left-radius: 20px;
+              border-top-right-radius: 20px;
+              border-bottom-right-radius: 20px; }
+              #main .main__content .main__content__left .main__content__left__download div a:hover h5 {
+                color: #04b4e0; }
+        #main .main__content .main__content__left .main__content__left__download h5 {
+          color: #ffffff;
+          font-weight: 500;
+          border: 2px solid white;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+          font-size: 20px;
+          padding: 10px 10px 10px 10px; }
+      #main .main__content .main__content__left .main__content__left__footer {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: center; }
+    #main .main__content .main__content__right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 75%;
+      background-color: #ffffff;
+      border-radius: 15px; }
+  #main #main__tools {
+    width: 5%;
+    margin-left: 20px; }
+    #main #main__tools .main__tools__top {
+      height: 50vh;
+      width: 100%;
+      border-radius: 40px;
+      background-color: #ffffff; }
+      #main #main__tools .main__tools__top div {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: 100%;
+        padding-top: 15px; }
+        #main #main__tools .main__tools__top div i {
+          font-size: 30px;
+          color: #c9c6c6; }
+          #main #main__tools .main__tools__top div i:hover {
+            color: aqua; }
+    #main #main__tools .main__tools__bottom {
+      margin-top: 10vh;
+      height: 20vh;
+      width: 100%;
+      border-radius: 40px;
+      background-color: #ffffff; }
+      #main #main__tools .main__tools__bottom div {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: 100%;
+        padding-top: 25px; }
+        #main #main__tools .main__tools__bottom div i {
+          font-size: 30px;
+          color: #c9c6c6; }
+          #main #main__tools .main__tools__bottom div i:hover {
+            color: aqua; }
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+  color: #ffffff; }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 800; }
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #888; }
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500; }
+
+h6 {
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center; }
+
+#header {
+  height: 10vh; }
+
+#footer {
+  height: 10vh; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #eeeeee; }
+
